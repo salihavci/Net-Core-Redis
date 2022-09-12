@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreRedis.Web.InMemory
+namespace NetCoreRedis.Web.Redis
 {
     public class Startup
     {
@@ -23,7 +23,6 @@ namespace NetCoreRedis.Web.InMemory
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMemoryCache();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
         }
 

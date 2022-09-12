@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Show";
+    Products p = ViewBag.product as Products;
+}
+
+<h1>@TempData["date"].ToString()</h1>
+<h1>@TempData["callback"].ToString()</h1>
+<h1>@p.Id => @p.Name => @p.Price => @p.Stock</h1>
+
+
