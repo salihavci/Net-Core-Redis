@@ -1,0 +1,1 @@
+# NetCoreRedis.Web.InMemory
