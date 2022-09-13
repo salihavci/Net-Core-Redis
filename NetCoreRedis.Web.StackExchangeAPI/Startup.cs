@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreRedis.Web.Redis
+namespace NetCoreRedis.Web.StackExchangeAPI
 {
     public class Startup
     {
@@ -23,11 +23,7 @@ namespace NetCoreRedis.Web.Redis
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddStackExchangeRedisCache(opts =>
-            {
-                opts.Configuration = "localhost:6379";
-            });
-            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

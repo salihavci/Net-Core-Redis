@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreRedis.Web.InMemory", "NetCoreRedis.Web.InMemory\NetCoreRedis.Web.InMemory.csproj", "{CE6C3B81-EED2-4FD0-9709-54732DA3509E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreRedis.Web.InMemory", "NetCoreRedis.Web.InMemory\NetCoreRedis.Web.InMemory.csproj", "{CE6C3B81-EED2-4FD0-9709-54732DA3509E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreRedis.Web.Redis", "NetCoreRedis.Web.Redis\NetCoreRedis.Web.Redis.csproj", "{1FBDAAEC-D4A5-47B9-8388-C0FE6CDD0271}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreRedis.Web.Redis", "NetCoreRedis.Web.Redis\NetCoreRedis.Web.Redis.csproj", "{1FBDAAEC-D4A5-47B9-8388-C0FE6CDD0271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreRedis.Web.StackExchangeAPI", "NetCoreRedis.Web.StackExchangeAPI\NetCoreRedis.Web.StackExchangeAPI.csproj", "{63499A9E-21F4-4D66-B2A1-171F73C40F7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1FBDAAEC-D4A5-47B9-8388-C0FE6CDD0271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FBDAAEC-D4A5-47B9-8388-C0FE6CDD0271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FBDAAEC-D4A5-47B9-8388-C0FE6CDD0271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63499A9E-21F4-4D66-B2A1-171F73C40F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63499A9E-21F4-4D66-B2A1-171F73C40F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63499A9E-21F4-4D66-B2A1-171F73C40F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63499A9E-21F4-4D66-B2A1-171F73C40F7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
